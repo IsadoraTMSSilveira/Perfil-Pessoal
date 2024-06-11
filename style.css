@@ -1,0 +1,64 @@
+body{
+    margin: auto;
+    width: 80%;
+}
+#navbarNavDropdown{
+    text-align: right;
+    justify-content: space-between;
+    position: relative;
+}
+.bottom
+{
+    position: relative;
+    display: grid;
+    margin: 50px 50px 0;
+    gap: 40px;
+    grid-template-columns: 2fr 3fr;
+}
+
+.bottom .left_side
+{
+    margin-top: 50px;
+}	
+.h5{
+    padding: 10px;
+}
+.topico{
+    border-radius: 5%;
+    background-color: #153ef5;
+}
+.perfil{
+    margin-left: 20px;
+    padding: 10px;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.biografia{
+    float: right;
+    width: 500px;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
+    margin-top: 40px;
+    text-align: center;
+}
+.colegas{
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+.footer{
+    background-color: #153ef5;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
